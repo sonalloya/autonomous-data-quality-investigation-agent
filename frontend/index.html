@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DQ INSIGHT — Autonomous Data Quality Investigation Agent</title>
+  <meta name="description" content="Autonomous agentic AI system for data quality profiling, anomaly detection, root cause analysis, prioritized remediation, and post-correction validation." />
+
+  <!-- Fonts & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/static/css/styles.css" />
+  <link rel="stylesheet" href="/static/css/components.css" />
+  <link rel="stylesheet" href="/static/css/responsive.css" />
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- ======================================================================
+         SIDEBAR NAVIGATION
+         ====================================================================== -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-icon">DQ</div>
+        <div class="logo-text">
+          <h1>DQ INSIGHT</h1>
+          <p>Autonomous Agent</p>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="nav-item active" href="#dashboard">
+          <span class="nav-icon">📊</span>
+          <span>Dashboard</span>
+        </a>
+        <a class="nav-item" href="#investigate">
+          <span class="nav-icon">🔍</span>
+          <span>Investigation</span>
+        </a>
+        <a class="nav-item" href="#workflow">
+          <span class="nav-icon">⚡</span>
+          <span>Agent Workflow</span>
+        </a>
+        <a class="nav-item" href="#validation">
+          <span class="nav-icon">✓</span>
+          <span>Validation</span>
+        </a>
+        <a class="nav-item" href="#reports">
+          <span class="nav-icon">📄</span>
+          <span>Reports</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="status-indicator" id="system-status-indicator">
+          <span class="status-dot"></span> System Online
+        </div>
+        <span style="font-size: 0.75rem; color: var(--text-muted);">v1.0.0</span>
+      </div>
+    </aside>
+
+    <!-- ======================================================================
+         MAIN APPLICATION CONTENT
+         ====================================================================== -->
+    <main class="main-content">
+      <!-- TOP HEADER -->
+      <header class="top-header">
+        <div class="header-left">
+          <h2>Autonomous Data Quality Investigation</h2>
+          <p>Multi-Agent Root Cause Analysis & Validation Engine</p>
+        </div>
+
+        <div class="header-right">
+          <span class="badge badge-success" id="api-health-badge">● API Online</span>
+          <span class="badge badge-neutral" id="llm-status-badge">⚙ Deterministic Mode</span>
+          <button class="btn-icon" id="btn-refresh-health" title="Refresh System Status" onclick="window.App.checkHealth()">⟳</button>
+        </div>
+      </header>
+
+      <div class="content-wrapper">
+        <!-- ==================================================================
+             HERO SECTION
+             ================================================================== -->
+        <section class="hero-card" id="dashboard">
+          <div class="hero-badge">Autonomous Diagnostic Intelligence</div>
+          <h1 class="hero-title">Detect. Investigate. Recommend. Validate.</h1>
+          <p class="hero-description">
+            Investigate enterprise tabular data quality anomalies using specialized deterministic agents, statistical z-score diagnostics, Bayesian root cause correlation, and human-in-the-loop validation governance.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="btn-hero-new">
+              <span>+</span> Start New Investigation
+            </button>
+          </div>
+        </section>
+
+        <!-- ==================================================================
+             INVESTIGATION INPUT & CONFIGURATION CARD
+             ================================================================== -->
+        <section class="card" id="investigation-input-card">
+          <div class="card-header">
+            <h2 class="card-title">
+              <span>🎯</span> Start an Investigation
+            </h2>
+            <span class="badge badge-info">LangGraph State Machine</span>
+          </div>
+
+          <!-- Drag and Drop Zone -->
+          <div class="dataset-upload-zone" id="dataset-drop-zone">
+            <div class="upload-icon">📁</div>
+            <div class="upload-text">Drop your CSV dataset here</div>
+            <div class="upload-subtext">or click to browse local files</div>
+            <input type="file" id="file-input" accept=".csv" style="display: none;" />
+          </div>
+
+          <!-- Quick Select Preset Datasets -->
+          <div class="quick-select-group">
+            <div class="quick-select-label">Quick-Select Demo & Test Datasets:</div>
+            <div class="pills-container">
+              <button class="pill-btn active" data-path="data/raw/sales_problematic.csv">
+                <span>⚠️</span> sales_problematic.csv (Issues Injected)
+              </button>
+              <button class="pill-btn" data-path="data/raw/sales_clean.csv">
+                <span>✓</span> sales_clean.csv (Clean Baseline)
+              </button>
+            </div>
+          </div>
+
+          <!-- Configuration Form Grid -->
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="dataset-path-input">Dataset Path</label>
+              <input type="text" id="dataset-path-input" class="form-control" value="data/raw/sales_problematic.csv" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="approval-status-select">Human Approval Status</label>
+              <select id="approval-status-select" class="form-control">
+                <option value="PENDING" selected>PENDING (Review Recommendations First)</option>
+                <option value="APPROVED">APPROVED (Authorize Validation)</option>
+                <option value="REJECTED">REJECTED (Halt Before Validation)</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="corrected-dataset-group" style="display: none;">
+              <label class="form-label" for="corrected-path-input">Corrected Dataset Fixture (Validation)</label>
+              <input type="text" id="corrected-path-input" class="form-control" value="" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Analysis Mode</label>
+              <div style="display: flex; align-items: center; gap: 0.5rem; height: 38px;">
+                <input type="checkbox" id="llm-toggle" />
+                <label for="llm-toggle" style="font-size: 0.85rem; color: var(--text-secondary); cursor: pointer;">
+                  Enable Gemini LLM Narrative Synthesis
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end;">
+            <button class="btn btn-primary" id="btn-analyze-dataset" style="padding: 0.75rem 2rem; font-size: 0.95rem;">
+              <span>⚡</span> Run Full Investigation Workflow
+            </button>
+          </div>
+        </section>
+
+        <!-- ==================================================================
+             EMPTY STATE (Shown before first investigation)
+             ================================================================== -->
+        <section class="card" id="empty-state" style="text-align: center; padding: 4rem 2rem;">
+          <div style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent);">🔬</div>
+          <h2 style="font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">No Investigation Active</h2>
+          <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto 1.5rem auto; font-size: 0.9rem;">
+            Select a target dataset above and click <strong>"Run Full Investigation Workflow"</strong> to trigger the autonomous multi-agent diagnostic loop.
+          </p>
+        </section>
+
+        <!-- ==================================================================
+             INVESTIGATION RESULTS (Initially Hidden)
+             ================================================================== -->
+        <div id="results-container" style="display: none;">
+
+          <!-- KPI METRICS GRID -->
+          <div class="kpi-grid">
+            <div class="kpi-card kpi-warning">
+              <div class="kpi-header">
+                <span class="kpi-title">Missing Values</span>
+                <span class="kpi-icon">🔍</span>
+              </div>
+              <div class="kpi-value" id="kpi-missing">0</div>
+              <div class="kpi-subtext">Null & missing cell occurrences</div>
+            </div>
+
+            <div class="kpi-card kpi-critical">
+              <div class="kpi-header">
+                <span class="kpi-title">Duplicate Records</span>
+                <span class="kpi-icon">📑</span>
+              </div>
+              <div class="kpi-value" id="kpi-duplicates">0</div>
+              <div class="kpi-subtext">Duplicate rows & transaction IDs</div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-header">
+                <span class="kpi-title">Statistical Anomalies</span>
+                <span class="kpi-icon">📈</span>
+              </div>
+              <div class="kpi-value" id="kpi-anomalies">0</div>
+              <div class="kpi-subtext">Temporal spikes & outlier dates</div>
+            </div>
+
+            <div class="kpi-card kpi-critical">
+              <div class="kpi-header">
+                <span class="kpi-title">Schema Violations</span>
+                <span class="kpi-icon">🛡</span>
+              </div>
+              <div class="kpi-value" id="kpi-schema">0</div>
+              <div class="kpi-subtext">Type, date & nullability errors</div>
+            </div>
+          </div>
+
+          <!-- AGENT WORKFLOW TIMELINE -->
+          <section class="card" id="workflow">
+            <div class="card-header">
+              <h2 class="card-title"><span>⚡</span> Agent Workflow Orchestration Loop</h2>
+              <span class="badge badge-success" id="profile-workflow-status">COMPLETED</span>
+            </div>
+
+            <div class="workflow-timeline" id="workflow-timeline-container">
+              <!-- Dynamically rendered by ui.js -->
+            </div>
+          </section>
+
+          <!-- ROOT CAUSE & ISSUES DISTRIBUTION GRID -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 1.5rem; margin-bottom: 1.5rem;">
+            <!-- ROOT CAUSE CARD -->
+            <section class="card" style="margin-bottom: 0;">
+              <div class="card-header">
+                <h2 class="card-title"><span>🧠</span> Root Cause Investigation</h2>
+                <span class="badge badge-critical" id="root-cause-confidence">HIGH</span>
+              </div>
+
+              <div class="root-cause-banner">
+                <div class="root-cause-title" id="root-cause-primary">Investigating...</div>
+                <div style="font-size: 0.85rem; color: var(--text-secondary);" id="root-cause-reasoning">
+                  Synthesizing empirical evidence across diagnostics...
+                </div>
+
+                <div class="confidence-meter">
+                  <span style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted);">CONFIDENCE</span>
+                  <div class="confidence-bar-bg">
+                    <div class="confidence-bar-fill" id="confidence-bar-fill" style="width: 85%;"></div>
+                  </div>
+                  <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--accent-light);" id="root-cause-score">Score: 15.5</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- DEFECT BREAKDOWN CHART -->
+            <section class="card" style="margin-bottom: 0;">
+              <div class="card-header">
+                <h2 class="card-title"><span>📊</span> Defect Distribution</h2>
+                <span class="badge badge-info">Empirical Metrics</span>
+              </div>
+              <div id="issues-chart-container">
+                <!-- Dynamically rendered by charts.js -->
+              </div>
+            </section>
+          </div>
+
+          <!-- HUMAN APPROVAL INTERACTIVE GATE -->
+          <section id="approval-gate-banner">
+            <!-- Dynamically rendered based on approval status -->
+          </section>
+
+          <!-- CORRECTION RECOMMENDATIONS -->
+          <section class="card">
+            <div class="card-header">
+              <h2 class="card-title"><span>🛠</span> Recommended Remediation Actions</h2>
+              <span class="badge badge-info">Prioritized Plan</span>
+            </div>
+            <div class="recommendations-grid" id="recommendations-container">
+              <!-- Dynamically populated by ui.js -->
+            </div>
+          </section>
+
+          <!-- MULTI-AGENT EVIDENCE ACCORDION -->
+          <section class="card">
+            <div class="card-header">
+              <h2 class="card-title"><span>📂</span> Multi-Agent Diagnostic Evidence</h2>
+              <span class="badge badge-neutral">Expandable Details</span>
+            </div>
+
+            <div class="accordion-group">
+              <div class="accordion-item open">
+                <div class="accordion-header">
+                  <span>📊 Profiling Agent Findings</span>
+                  <span>▾</span>
+                </div>
+                <div class="accordion-body" id="evidence-profiling">
+                  Profiling findings detail...
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>📈 Anomaly Detection Evidence</span>
+                  <span>▾</span>
+                </div>
+                <div class="accordion-body" id="evidence-anomaly">
+                  Anomaly findings detail...
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>🔍 Schema Analysis Violations</span>
+                  <span>▾</span>
+                </div>
+                <div class="accordion-body" id="evidence-schema">
+                  Schema findings detail...
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>🧠 Root Cause Bayesian Analysis</span>
+                  <span>▾</span>
+                </div>
+                <div class="accordion-body" id="evidence-root-cause">
+                  Root cause findings detail...
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CORRECTION RESULT CARD -->
+          <section class="card" id="correction-result-section" style="display: none; border: 1px solid var(--accent); background: linear-gradient(180deg, var(--surface) 0%, rgba(99, 102, 241, 0.04) 100%);">
+            <div class="card-header">
+              <h2 class="card-title"><span>📊</span> CORRECTION RESULT</h2>
+              <span class="badge badge-info" id="corr-result-status-badge">GENERATED COPY</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 1.25rem;">
+              <div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-bottom: 0.25rem;">Original Dataset</div>
+                <div id="corr-orig-filename" style="font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600; color: var(--text-primary);">—</div>
+                <div id="corr-orig-path" style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); margin-top: 0.15rem;">—</div>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-bottom: 0.25rem;">Corrected Dataset</div>
+                <div id="corr-new-filename" style="font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600; color: var(--accent-light);">—</div>
+                <div id="corr-new-path" style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); margin-top: 0.15rem;">—</div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 1.25rem; padding: 1rem 1.25rem; background: var(--surface); border-radius: 8px; border: 1px solid var(--border);">
+              <div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">Corrections Applied:</div>
+                <div id="corr-applied-count" style="font-size: 1.35rem; font-weight: 800; color: var(--success);">0</div>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">Issues Remaining:</div>
+                <div id="corr-remaining-count" style="font-size: 1.35rem; font-weight: 800; color: var(--text-secondary);">0</div>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">Post-Correction Validation:</div>
+                <div id="corr-val-badge" style="margin-top: 0.25rem;"><span class="badge badge-success">✓ POST-CORRECTION VALIDATION PASSED</span></div>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: flex-end;" id="corr-download-wrapper">
+              <button class="btn btn-primary" id="btn-download-corrected-csv" style="padding: 0.75rem 2rem; font-size: 0.95rem;">
+                <span>⬇</span> Download Corrected CSV
+              </button>
+            </div>
+          </section>
+
+          <!-- REMEDIATION AUDIT & DATA CHANGES -->
+          <section class="card" id="audit-section" style="display: none;">
+            <div class="card-header">
+              <h2 class="card-title"><span>🛡️</span> Remediation Audit & Data Changes</h2>
+              <span class="badge badge-warning">Human-in-the-Loop Audit</span>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">Human Approval Record</h3>
+              <div class="metrics-grid" id="approval-record-grid">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">Approved Remediation Actions</h3>
+              <div id="approved-actions-list" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+
+            <div>
+              <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">Data Change Summary</h3>
+              <div class="metrics-grid" id="data-change-metrics">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+          </section>
+          <!-- VALIDATION RESULTS & BEFORE/AFTER METRICS -->
+          <section class="card" id="validation">
+            <div class="card-header">
+              <h2 class="card-title"><span>✓</span> Post-Correction Validation Dashboard</h2>
+              <span class="badge badge-success">Deterministic Verification</span>
+            </div>
+
+            <div id="validation-verdict-banner" class="verdict-banner verdict-passed">
+              <!-- Dynamically populated by ui.js -->
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+              <div>
+                <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">
+                  Independent Check Suite
+                </h3>
+                <div class="checks-list" id="validation-checks-list">
+                  <!-- Dynamically populated -->
+                </div>
+              </div>
+
+              <div>
+                <h3 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">
+                  Before / After Metric Comparison
+                </h3>
+                <div id="before-after-container">
+                  <!-- Dynamically populated by charts.js -->
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FINAL REPORT & EXPORT -->
+          <section class="card" id="reports">
+            <div class="card-header">
+              <h2 class="card-title"><span>📄</span> Final Investigation Report</h2>
+              <div style="display: flex; gap: 0.5rem;">
+                <button class="btn btn-secondary" id="btn-copy-report" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                  <span>📋</span> Copy Report
+                </button>
+                <button class="btn btn-primary" id="btn-download-report" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                  <span>💾</span> Download Report
+                </button>
+              </div>
+            </div>
+
+            <!-- DYNAMIC HUMAN-READABLE EXECUTIVE REPORT -->
+            <div id="human-report-container">
+              <!-- Rendered dynamically by ui.js -->
+            </div>
+
+            <!-- COLLAPSIBLE TECHNICAL DETAILS / RAW JSON -->
+            <div class="accordion-item" style="margin-top: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden;">
+              <div class="accordion-header" style="background: var(--bg-secondary); padding: 0.85rem 1.25rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-weight: 600; font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; gap: 0.5rem;">
+                  <span>⚙</span> Technical Details / Raw Investigation Response
+                </span>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">▾</span>
+              </div>
+              <div class="accordion-body" style="padding: 1rem; display: none;">
+                <div style="margin-bottom: 0.75rem; font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">RAW API RESPONSE JSON:</div>
+                <pre class="code-block" id="final-report-text">Loading report JSON...</pre>
+                
+                <div style="margin-top: 1rem; margin-bottom: 0.75rem; font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">LANGGRAPH EXECUTION TRACE:</div>
+                <pre class="code-block" id="execution-trace-json">[]</pre>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ======================================================================
+       LOADING STEPPER OVERLAY
+       ====================================================================== -->
+  <div class="loading-overlay" id="loading-overlay" style="display: none;">
+    <div class="spinner"></div>
+    <div class="loading-text">Investigation in Progress</div>
+    <div class="loading-subtext" id="loading-step-text">Profiling dataset...</div>
+  </div>
+
+  <!-- ======================================================================
+       SCRIPTS
+       ====================================================================== -->
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/state.js"></script>
+  <script src="/static/js/charts.js"></script>
+  <script src="/static/js/ui.js"></script>
+  <script src="/static/js/app.js"></script>
+
+</body>
+</html>

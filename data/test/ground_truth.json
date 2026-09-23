@@ -1,0 +1,1552 @@
+{
+  "_metadata": {
+    "description": "Ground truth for Phase 2 data-quality injection. Describes every intentionally introduced problem.",
+    "clean_dataset_rows": 8000,
+    "problematic_dataset_rows": 8180,
+    "random_seed": 42
+  },
+  "missing_values": {
+    "expected": true,
+    "columns": [
+      "customer_id",
+      "region",
+      "quantity",
+      "payment_method"
+    ],
+    "counts_per_column": {
+      "customer_id": 320,
+      "region": 320,
+      "quantity": 240,
+      "payment_method": 160
+    },
+    "sample_transaction_ids": {
+      "customer_id": [
+        "TXN0007091",
+        "TXN0002100",
+        "TXN0005248",
+        "TXN0005761",
+        "TXN0007421",
+        "TXN0006588",
+        "TXN0005502",
+        "TXN0005878",
+        "TXN0004874",
+        "TXN0001977"
+      ],
+      "region": [
+        "TXN0003838",
+        "TXN0000281",
+        "TXN0003888",
+        "TXN0005994",
+        "TXN0005122",
+        "TXN0000379",
+        "TXN0001986",
+        "TXN0005036",
+        "TXN0005376",
+        "TXN0001673"
+      ],
+      "quantity": [
+        "TXN0007208",
+        "TXN0003902",
+        "TXN0003428",
+        "TXN0004544",
+        "TXN0006755",
+        "TXN0001462",
+        "TXN0003173",
+        "TXN0004476",
+        "TXN0004275",
+        "TXN0001116"
+      ],
+      "payment_method": [
+        "TXN0000192",
+        "TXN0007655",
+        "TXN0003917",
+        "TXN0005938",
+        "TXN0001904",
+        "TXN0007021",
+        "TXN0007078",
+        "TXN0007951",
+        "TXN0000166",
+        "TXN0006047"
+      ]
+    }
+  },
+  "duplicates": {
+    "expected": true,
+    "count": 180,
+    "transaction_ids": [
+      "TXN0000049",
+      "TXN0002590",
+      "TXN0000027",
+      "TXN0003025",
+      "TXN0007900",
+      "TXN0003196",
+      "TXN0000455",
+      "TXN0004264",
+      "TXN0007924",
+      "TXN0002733",
+      "TXN0004507",
+      "TXN0004527",
+      "TXN0005418",
+      "TXN0000324",
+      "TXN0006119",
+      "TXN0000267",
+      "TXN0004240",
+      "TXN0000739",
+      "TXN0005082",
+      "TXN0006276",
+      "TXN0003905",
+      "TXN0000036",
+      "TXN0000085",
+      "TXN0005049",
+      "TXN0006231",
+      "TXN0004456",
+      "TXN0007757",
+      "TXN0002708",
+      "TXN0006508",
+      "TXN0007363",
+      "TXN0006812",
+      "TXN0007722",
+      "TXN0000898",
+      "TXN0001597",
+      "TXN0007339",
+      "TXN0003313",
+      "TXN0004616",
+      "TXN0000151",
+      "TXN0007514",
+      "TXN0004474",
+      "TXN0006241",
+      "TXN0003975",
+      "TXN0007584",
+      "TXN0000184",
+      "TXN0000005",
+      "TXN0001625",
+      "TXN0006991",
+      "TXN0002807",
+      "TXN0007397",
+      "TXN0002787",
+      "TXN0000284",
+      "TXN0002597",
+      "TXN0006355",
+      "TXN0000857",
+      "TXN0004911",
+      "TXN0006059",
+      "TXN0007206",
+      "TXN0006542",
+      "TXN0006156",
+      "TXN0002465",
+      "TXN0001050",
+      "TXN0000790",
+      "TXN0002195",
+      "TXN0003315",
+      "TXN0005888",
+      "TXN0001592",
+      "TXN0001959",
+      "TXN0005630",
+      "TXN0000711",
+      "TXN0005149",
+      "TXN0004045",
+      "TXN0007036",
+      "TXN0000853",
+      "TXN0006502",
+      "TXN0005631",
+      "TXN0006767",
+      "TXN0002440",
+      "TXN0007953",
+      "TXN0000761",
+      "TXN0001830",
+      "TXN0007251",
+      "TXN0006316",
+      "TXN0000084",
+      "TXN0006434",
+      "TXN0007076",
+      "TXN0005769",
+      "TXN0002720",
+      "TXN0001377",
+      "TXN0004388",
+      "TXN0005969",
+      "TXN0000599",
+      "TXN0005171",
+      "TXN0002268",
+      "TXN0006419",
+      "TXN0002421",
+      "TXN0006625",
+      "TXN0007400",
+      "TXN0001815",
+      "TXN0001598",
+      "TXN0006090",
+      "TXN0002319",
+      "TXN0004289",
+      "TXN0003119",
+      "TXN0000309",
+      "TXN0004114",
+      "TXN0002788",
+      "TXN0001632",
+      "TXN0005277",
+      "TXN0000964",
+      "TXN0007072",
+      "TXN0004575",
+      "TXN0005990",
+      "TXN0003681",
+      "TXN0003282",
+      "TXN0001697",
+      "TXN0002675",
+      "TXN0006515",
+      "TXN0005104",
+      "TXN0005469",
+      "TXN0004718",
+      "TXN0004723",
+      "TXN0001773",
+      "TXN0004935",
+      "TXN0005602",
+      "TXN0001866",
+      "TXN0000168",
+      "TXN0000345",
+      "TXN0002002",
+      "TXN0001962",
+      "TXN0002428",
+      "TXN0002797",
+      "TXN0000592",
+      "TXN0002913",
+      "TXN0006286",
+      "TXN0006369",
+      "TXN0002322",
+      "TXN0004697",
+      "TXN0002523",
+      "TXN0001898",
+      "TXN0003963",
+      "TXN0003213",
+      "TXN0001229",
+      "TXN0007246",
+      "TXN0004610",
+      "TXN0003633",
+      "TXN0005802",
+      "TXN0004701",
+      "TXN0005289",
+      "TXN0001180",
+      "TXN0004377",
+      "TXN0006799",
+      "TXN0007050",
+      "TXN0003969",
+      "TXN0001927",
+      "TXN0007243",
+      "TXN0007908",
+      "TXN0005540",
+      "TXN0005021",
+      "TXN0007204",
+      "TXN0002822",
+      "TXN0001588",
+      "TXN0004007",
+      "TXN0007271",
+      "TXN0005282",
+      "TXN0005207",
+      "TXN0003386",
+      "TXN0005933",
+      "TXN0002023",
+      "TXN0001781",
+      "TXN0001302",
+      "TXN0005604",
+      "TXN0005446",
+      "TXN0005556",
+      "TXN0002776",
+      "TXN0004736",
+      "TXN0003275",
+      "TXN0005701",
+      "TXN0001224",
+      "TXN0004330",
+      "TXN0002175"
+    ]
+  },
+  "invalid_values": {
+    "expected": true,
+    "count": 163,
+    "records": [
+      {
+        "transaction_id": "TXN0001341",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005576",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0003900",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007036",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0004504",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0004431",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000295",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0006504",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002317",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003667",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0001037",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0001052",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002021",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003808",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0002404",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0000074",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0006384",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0006274",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005549",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0002661",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0007622",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0006566",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000605",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007746",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0007015",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0007029",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000567",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0001836",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0003617",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0007947",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0004032",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0006107",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0006631",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0001135",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0004559",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0002515",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0007117",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003318",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005304",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0000853",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0007747",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003434",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007056",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0005283",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0001072",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0001218",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000777",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0004237",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0001368",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002799",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0002318",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0001408",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0005366",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005667",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000406",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0004433",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002931",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005559",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0006752",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0003660",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0004614",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0007249",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005296",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0006726",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0005346",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002361",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005195",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0006534",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0004980",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003603",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000840",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0003560",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0007931",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005776",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0001826",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0006466",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0003569",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0000004",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0006028",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0004172",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0003568",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005108",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005650",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0005148",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002428",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005926",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0003124",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0002663",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0005002",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0000286",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007726",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0004505",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0005314",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0006642",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007670",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007793",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0005728",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003193",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000112",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007825",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002637",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002553",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007024",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0006413",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0000011",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002665",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0006118",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0005414",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0004167",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0001781",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007719",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0003054",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0000533",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0000149",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000749",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0001069",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0003439",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0001405",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005854",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0005307",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0003600",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0004271",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007754",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0005096",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0007888",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0006550",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0006559",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0002465",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002195",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0004736",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0006209",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0003782",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0006262",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002675",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0001375",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0000086",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0003499",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0004393",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0003681",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007188",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0000740",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0005286",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005176",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007489",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0001318",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0001416",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0005810",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0003945",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0001892",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0003980",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0003044",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007327",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0002275",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002563",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0000939",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0007700",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0000188",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0002892",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0007454",
+        "issue": "negative_unit_price"
+      },
+      {
+        "transaction_id": "TXN0003198",
+        "issue": "negative_total_amount"
+      },
+      {
+        "transaction_id": "TXN0000757",
+        "issue": "negative_quantity"
+      },
+      {
+        "transaction_id": "TXN0001392",
+        "issue": "zero_quantity"
+      },
+      {
+        "transaction_id": "TXN0003033",
+        "issue": "negative_unit_price"
+      }
+    ]
+  },
+  "anomalies": {
+    "expected": true,
+    "count": 35,
+    "records": [
+      {
+        "transaction_id": "TXN0003411",
+        "type": "extreme_quantity",
+        "value": 1208
+      },
+      {
+        "transaction_id": "TXN0001725",
+        "type": "extreme_total_amount",
+        "value": 53635.3
+      },
+      {
+        "transaction_id": "TXN0007960",
+        "type": "extreme_quantity",
+        "value": 1963
+      },
+      {
+        "transaction_id": "TXN0006928",
+        "type": "extreme_total_amount",
+        "value": 240447.44
+      },
+      {
+        "transaction_id": "TXN0002962",
+        "type": "extreme_quantity",
+        "value": 565
+      },
+      {
+        "transaction_id": "TXN0002829",
+        "type": "extreme_total_amount",
+        "value": 217598.48
+      },
+      {
+        "transaction_id": "TXN0002041",
+        "type": "extreme_quantity",
+        "value": 1087
+      },
+      {
+        "transaction_id": "TXN0003969",
+        "type": "extreme_total_amount",
+        "value": 158942.58
+      },
+      {
+        "transaction_id": "TXN0001455",
+        "type": "extreme_quantity",
+        "value": 544
+      },
+      {
+        "transaction_id": "TXN0001077",
+        "type": "extreme_total_amount",
+        "value": 121875.58
+      },
+      {
+        "transaction_id": "TXN0007358",
+        "type": "extreme_quantity",
+        "value": 1346
+      },
+      {
+        "transaction_id": "TXN0006599",
+        "type": "extreme_total_amount",
+        "value": 215694.52
+      },
+      {
+        "transaction_id": "TXN0003265",
+        "type": "extreme_quantity",
+        "value": 1173
+      },
+      {
+        "transaction_id": "TXN0001003",
+        "type": "extreme_total_amount",
+        "value": 148448.28
+      },
+      {
+        "transaction_id": "TXN0006250",
+        "type": "extreme_quantity",
+        "value": 896
+      },
+      {
+        "transaction_id": "TXN0007141",
+        "type": "extreme_total_amount",
+        "value": 162034.9
+      },
+      {
+        "transaction_id": "TXN0004301",
+        "type": "extreme_quantity",
+        "value": 1791
+      },
+      {
+        "transaction_id": "TXN0003985",
+        "type": "extreme_total_amount",
+        "value": 144327.07
+      },
+      {
+        "transaction_id": "TXN0004380",
+        "type": "extreme_quantity",
+        "value": 1613
+      },
+      {
+        "transaction_id": "TXN0005815",
+        "type": "extreme_total_amount",
+        "value": 186056.58
+      },
+      {
+        "transaction_id": "TXN0003474",
+        "type": "extreme_quantity",
+        "value": 1634
+      },
+      {
+        "transaction_id": "TXN0000217",
+        "type": "extreme_total_amount",
+        "value": 181864.13
+      },
+      {
+        "transaction_id": "TXN0001832",
+        "type": "extreme_quantity",
+        "value": 1227
+      },
+      {
+        "transaction_id": "TXN0001105",
+        "type": "extreme_total_amount",
+        "value": 184828.7
+      },
+      {
+        "transaction_id": "TXN0005732",
+        "type": "extreme_quantity",
+        "value": 1844
+      },
+      {
+        "transaction_id": "TXN0003543",
+        "type": "extreme_total_amount",
+        "value": 214659.96
+      },
+      {
+        "transaction_id": "TXN0004748",
+        "type": "extreme_quantity",
+        "value": 1564
+      },
+      {
+        "transaction_id": "TXN0001472",
+        "type": "extreme_total_amount",
+        "value": 158144.51
+      },
+      {
+        "transaction_id": "TXN0005093",
+        "type": "extreme_quantity",
+        "value": 1778
+      },
+      {
+        "transaction_id": "TXN0006622",
+        "type": "extreme_total_amount",
+        "value": 185928.17
+      },
+      {
+        "transaction_id": "TXN0004157",
+        "type": "extreme_quantity",
+        "value": 789
+      },
+      {
+        "transaction_id": "TXN0004929",
+        "type": "extreme_total_amount",
+        "value": 65423.62
+      },
+      {
+        "transaction_id": "TXN0000650",
+        "type": "extreme_quantity",
+        "value": 1648
+      },
+      {
+        "transaction_id": "TXN0000470",
+        "type": "extreme_total_amount",
+        "value": 208431.51
+      },
+      {
+        "transaction_id": "TXN0004671",
+        "type": "extreme_quantity",
+        "value": 828
+      }
+    ]
+  },
+  "categorical_issues": {
+    "expected": true,
+    "count": 50,
+    "affected_columns": [
+      "region",
+      "payment_method",
+      "sales_channel"
+    ],
+    "records": [
+      {
+        "transaction_id": "TXN0001992",
+        "column": "region",
+        "bad_value": "N/A"
+      },
+      {
+        "transaction_id": "TXN0003429",
+        "column": "payment_method",
+        "bad_value": "wire transfer"
+      },
+      {
+        "transaction_id": "TXN0005816",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0002080",
+        "column": "region",
+        "bad_value": "??"
+      },
+      {
+        "transaction_id": "TXN0001171",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0004916",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0002518",
+        "column": "region",
+        "bad_value": "N/A"
+      },
+      {
+        "transaction_id": "TXN0004603",
+        "column": "payment_method",
+        "bad_value": "Unknown"
+      },
+      {
+        "transaction_id": "TXN0005588",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0003538",
+        "column": "region",
+        "bad_value": "UNKNOWN_REGION"
+      },
+      {
+        "transaction_id": "TXN0006235",
+        "column": "payment_method",
+        "bad_value": "wire transfer"
+      },
+      {
+        "transaction_id": "TXN0007636",
+        "column": "sales_channel",
+        "bad_value": "Fax"
+      },
+      {
+        "transaction_id": "TXN0005209",
+        "column": "region",
+        "bad_value": "UNKNOWN_REGION"
+      },
+      {
+        "transaction_id": "TXN0004473",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0007712",
+        "column": "sales_channel",
+        "bad_value": "Unknown Channel"
+      },
+      {
+        "transaction_id": "TXN0001914",
+        "column": "region",
+        "bad_value": "N/A"
+      },
+      {
+        "transaction_id": "TXN0000907",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0006322",
+        "column": "sales_channel",
+        "bad_value": "LEGACY"
+      },
+      {
+        "transaction_id": "TXN0000444",
+        "column": "region",
+        "bad_value": "UNKNOWN_REGION"
+      },
+      {
+        "transaction_id": "TXN0000160",
+        "column": "payment_method",
+        "bad_value": "Cryptocurrency"
+      },
+      {
+        "transaction_id": "TXN0005192",
+        "column": "sales_channel",
+        "bad_value": "LEGACY"
+      },
+      {
+        "transaction_id": "TXN0006996",
+        "column": "region",
+        "bad_value": "TBD"
+      },
+      {
+        "transaction_id": "TXN0001581",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0004052",
+        "column": "sales_channel",
+        "bad_value": "Unknown Channel"
+      },
+      {
+        "transaction_id": "TXN0001597",
+        "column": "region",
+        "bad_value": "N/A"
+      },
+      {
+        "transaction_id": "TXN0002957",
+        "column": "payment_method",
+        "bad_value": "Unknown"
+      },
+      {
+        "transaction_id": "TXN0000881",
+        "column": "sales_channel",
+        "bad_value": "Fax"
+      },
+      {
+        "transaction_id": "TXN0005563",
+        "column": "region",
+        "bad_value": "UNKNOWN_REGION"
+      },
+      {
+        "transaction_id": "TXN0002398",
+        "column": "payment_method",
+        "bad_value": "wire transfer"
+      },
+      {
+        "transaction_id": "TXN0000544",
+        "column": "sales_channel",
+        "bad_value": "Unknown Channel"
+      },
+      {
+        "transaction_id": "TXN0000472",
+        "column": "region",
+        "bad_value": "UNKNOWN_REGION"
+      },
+      {
+        "transaction_id": "TXN0007383",
+        "column": "payment_method",
+        "bad_value": "wire transfer"
+      },
+      {
+        "transaction_id": "TXN0006609",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0004609",
+        "column": "region",
+        "bad_value": "TBD"
+      },
+      {
+        "transaction_id": "TXN0007007",
+        "column": "payment_method",
+        "bad_value": "Unknown"
+      },
+      {
+        "transaction_id": "TXN0000122",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0006671",
+        "column": "region",
+        "bad_value": "??"
+      },
+      {
+        "transaction_id": "TXN0004255",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0005914",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0007258",
+        "column": "region",
+        "bad_value": "N/A"
+      },
+      {
+        "transaction_id": "TXN0000208",
+        "column": "payment_method",
+        "bad_value": "Unknown"
+      },
+      {
+        "transaction_id": "TXN0006542",
+        "column": "sales_channel",
+        "bad_value": "LEGACY"
+      },
+      {
+        "transaction_id": "TXN0006030",
+        "column": "region",
+        "bad_value": "??"
+      },
+      {
+        "transaction_id": "TXN0004304",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0007637",
+        "column": "sales_channel",
+        "bad_value": "Fax"
+      },
+      {
+        "transaction_id": "TXN0000178",
+        "column": "region",
+        "bad_value": "TBD"
+      },
+      {
+        "transaction_id": "TXN0003736",
+        "column": "payment_method",
+        "bad_value": "BARTER"
+      },
+      {
+        "transaction_id": "TXN0003026",
+        "column": "sales_channel",
+        "bad_value": "walk-in"
+      },
+      {
+        "transaction_id": "TXN0004040",
+        "column": "region",
+        "bad_value": "TBD"
+      },
+      {
+        "transaction_id": "TXN0005013",
+        "column": "payment_method",
+        "bad_value": "wire transfer"
+      }
+    ]
+  },
+  "schema_issues": {
+    "expected": true,
+    "count": 40,
+    "issue_types": [
+      "quantity_as_string",
+      "date_format_inconsistency",
+      "unit_price_as_currency_string"
+    ],
+    "issues": [
+      {
+        "transaction_id": "TXN0000146",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0001531",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0000910",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0006726",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0006406",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0003963",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0005117",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0003456",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0000681",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0004989",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0007902",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0002788",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0005909",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0002435",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0003478",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0004950",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0007700",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0002312",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0003576",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0007435",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0004311",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0000033",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0007937",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0004702",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0003439",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0005119",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0001398",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0002433",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0003839",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0000410",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0005030",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0001180",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0005460",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0002154",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0006196",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0001522",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0003789",
+        "issue": "quantity_as_string"
+      },
+      {
+        "transaction_id": "TXN0004042",
+        "issue": "date_format_inconsistency"
+      },
+      {
+        "transaction_id": "TXN0001795",
+        "issue": "unit_price_as_currency_string"
+      },
+      {
+        "transaction_id": "TXN0005388",
+        "issue": "quantity_as_string"
+      }
+    ]
+  },
+  "revenue_anomaly": {
+    "expected": true,
+    "clean_total_revenue": 43216127.86,
+    "problematic_total_revenue": 59210785.99,
+    "absolute_difference": 15994658.13,
+    "expected_difference_percent": 37.01,
+    "direction": "over",
+    "contributing_factors": [
+      "duplicate_transactions_inflate_revenue",
+      "anomalous_extreme_total_amounts",
+      "records_with_missing_or_invalid_quantity_excluded_from_sum",
+      "negative_total_amounts_reduce_sum"
+    ]
+  },
+  "issue_categories": [
+    "missing_values",
+    "duplicate_transactions",
+    "invalid_values",
+    "anomalous_values",
+    "categorical_inconsistency",
+    "data_type_format_inconsistency"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "dataset_name": "sales",
+  "version": "1.0",
+  "description": "Expected schema definition for sales transactions dataset",
+  "columns": [
+    {
+      "name": "transaction_id",
+      "logical_type": "string",
+      "required": true,
+      "nullable": false,
+      "description": "Unique transaction identifier"
+    },
+    {
+      "name": "customer_id",
+      "logical_type": "string",
+      "required": true,
+      "nullable": false,
+      "description": "Customer identifier"
+    },
+    {
+      "name": "product_id",
+      "logical_type": "string",
+      "required": true,
+      "nullable": false,
+      "description": "Product identifier"
+    },
+    {
+      "name": "transaction_date",
+      "logical_type": "datetime",
+      "required": true,
+      "nullable": false,
+      "expected_format": "%Y-%m-%d",
+      "description": "Date of transaction (ISO format YYYY-MM-DD expected)"
+    },
+    {
+      "name": "quantity",
+      "logical_type": "integer",
+      "required": true,
+      "nullable": false,
+      "min_value_exclusive": 0,
+      "description": "Number of units purchased (must be strictly positive integer)"
+    },
+    {
+      "name": "unit_price",
+      "logical_type": "float",
+      "required": true,
+      "nullable": false,
+      "min_value_exclusive": 0.0,
+      "description": "Price per unit (must be strictly positive float)"
+    },
+    {
+      "name": "total_amount",
+      "logical_type": "float",
+      "required": true,
+      "nullable": false,
+      "min_value": 0.0,
+      "description": "Total monetary amount (must be non-negative float)"
+    },
+    {
+      "name": "region",
+      "logical_type": "string",
+      "required": true,
+      "nullable": false,
+      "allowed_values": ["North", "South", "East", "West", "Central"],
+      "description": "Sales region"
+    },
+    {
+      "name": "payment_method",
+      "logical_type": "string",
+      "required": true,
+      "nullable": false,
+      "allowed_values": ["Credit Card", "Debit Card", "PayPal", "Bank Transfer", "Cash"],
+      "description": "Payment method used"
+    },
+    {
+      "name": "sales_channel",
+      "logical_type": "string",
+      "required": true,
+      "nullable": false,
+      "allowed_values": ["Online", "In-Store", "Phone", "Partner", "Direct Sales"],
+      "description": "Channel through which sale occurred"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# ==============================================================================
+# .gitignore — Autonomous Data Quality Investigation Agent
+# ==============================================================================
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+
+# --- Python Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Output Directories ---
+reports/
+data/processed/
+data/uploads/*.csv
+!data/uploads/.gitkeep
+
+# NOTE: data/raw/ and data/test/ are NOT ignored —
+# they may contain sample datasets committed to the repo.
+
+# --- Distribution / Build ---
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coveragerc
+
+# --- Type Checking ---
+.mypy_cache/
+.dmypy.json
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/

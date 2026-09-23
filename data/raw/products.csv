@@ -1,0 +1,76 @@
+product_id,product_name,category,unit_price
+PROD000001,Mechanical Keyboard,Electronics,427.5
+PROD000002,Laptop Pro,Electronics,517.6
+PROD000003,Bluetooth Speaker,Electronics,401.59
+PROD000004,Curved Monitor,Electronics,745.79
+PROD000005,Wireless Headphones,Electronics,1040.71
+PROD000006,Curved Monitor,Electronics,380.96
+PROD000007,Laptop Pro,Electronics,529.56
+PROD000008,Webcam HD,Electronics,1399.05
+PROD000009,External SSD,Electronics,120.42
+PROD000010,Bluetooth Speaker,Electronics,718.11
+PROD000011,Printer Ink Bundle,Office Supplies,65.47
+PROD000012,Paper Shredder,Office Supplies,17.78
+PROD000013,Whiteboard Markers,Office Supplies,9.02
+PROD000014,Ergonomic Pen Set,Office Supplies,16.74
+PROD000015,Printer Ink Bundle,Office Supplies,83.09
+PROD000016,Sticky Notes Pack,Office Supplies,5.78
+PROD000017,File Folders (50pk),Office Supplies,21.0
+PROD000018,Printer Ink Bundle,Office Supplies,7.65
+PROD000019,Premium Notebook,Office Supplies,14.39
+PROD000020,Stapler Set,Office Supplies,57.7
+PROD000021,Meeting Table,Furniture,800.74
+PROD000022,Storage Ottoman,Furniture,1750.7
+PROD000023,Wall Shelving Unit,Furniture,1811.56
+PROD000024,Wall Shelving Unit,Furniture,2563.35
+PROD000025,Ergonomic Chair,Furniture,113.74
+PROD000026,Coat Rack,Furniture,2574.76
+PROD000027,Ergonomic Chair,Furniture,1895.44
+PROD000028,Wall Shelving Unit,Furniture,571.95
+PROD000029,Wall Shelving Unit,Furniture,2341.51
+PROD000030,Bookshelf,Furniture,2580.92
+PROD000031,CRM Platform,Software,251.2
+PROD000032,Data Analytics Suite,Software,829.34
+PROD000033,Data Analytics Suite,Software,425.37
+PROD000034,Data Analytics Suite,Software,554.97
+PROD000035,HR Platform License,Software,886.64
+PROD000036,Project Mgmt License,Software,344.53
+PROD000037,Cloud Backup (1yr),Software,737.44
+PROD000038,Antivirus Suite,Software,307.0
+PROD000039,Data Analytics Suite,Software,725.31
+PROD000040,Design Suite,Software,552.63
+PROD000041,HDMI Matrix Switch,Peripherals,145.48
+PROD000042,Docking Station,Peripherals,260.13
+PROD000043,Smart Card Reader,Peripherals,204.22
+PROD000044,HDMI Matrix Switch,Peripherals,65.29
+PROD000045,Fingerprint Reader,Peripherals,37.29
+PROD000046,Smart Card Reader,Peripherals,220.95
+PROD000047,Numeric Keypad,Peripherals,31.03
+PROD000048,Numeric Keypad,Peripherals,115.97
+PROD000049,Numeric Keypad,Peripherals,440.6
+PROD000050,Smart Card Reader,Peripherals,430.68
+PROD000051,Firewall Appliance,Networking,892.82
+PROD000052,Network Switch 24pt,Networking,397.64
+PROD000053,UPS 1500VA,Networking,1070.76
+PROD000054,UPS 1500VA,Networking,722.74
+PROD000055,Patch Panel,Networking,173.07
+PROD000056,UPS 1500VA,Networking,193.86
+PROD000057,Network Switch 24pt,Networking,839.38
+PROD000058,NAS Enclosure,Networking,228.2
+PROD000059,NAS Enclosure,Networking,621.06
+PROD000060,NAS Enclosure,Networking,1190.33
+PROD000061,Anti-Glare Filter,Accessories,5.29
+PROD000062,Laptop Bag,Accessories,6.23
+PROD000063,Surge Protector,Accessories,79.47
+PROD000064,Screen Cleaner Kit,Accessories,48.84
+PROD000065,Screen Cleaner Kit,Accessories,14.51
+PROD000066,Monitor Privacy Screen,Accessories,72.29
+PROD000067,Cable Management Box,Accessories,71.02
+PROD000068,Cable Management Box,Accessories,45.21
+PROD000069,Cable Management Box,Accessories,51.62
+PROD000070,Extension Cord Pro,Accessories,25.48
+PROD000071,Filing Cabinet,Furniture,246.5
+PROD000072,HDMI Matrix Switch,Peripherals,364.84
+PROD000073,Bluetooth Speaker,Electronics,477.39
+PROD000074,Patch Panel,Networking,804.74
+PROD000075,Network Cable (100m),Networking,1007.58

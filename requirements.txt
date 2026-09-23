@@ -1,0 +1,27 @@
+# ==============================================================================
+# Autonomous Data Quality Investigation Agent — Dependencies
+# ==============================================================================
+
+# --- Web Framework ---
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart>=0.0.18
+
+# --- Data Processing ---
+pandas==2.2.3
+numpy>=1.26.0
+
+# --- LLM Integration (optional, Gemini) ---
+# The system degrades gracefully when this is not installed or no key is set.
+google-genai>=2.0.0
+
+# --- Workflow Orchestration (Phase 9) ---
+langgraph>=1.2.0
+
+# --- Environment & Configuration ---
+python-dotenv==1.0.1
+
+# --- Testing ---
+pytest==8.3.3
+httpx==0.28.0        # Required by FastAPI TestClient
+pytest-mock>=3.12.0  # For mocking LLM calls in tests

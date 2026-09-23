@@ -1,0 +1,751 @@
+customer_id,customer_name,customer_segment,city,region
+CUST000001,Linda Johnson,Small Business,Detroit,North
+CUST000002,Sarah Anderson,Consumer,San Francisco,West
+CUST000003,Michael Wright,Consumer,Los Angeles,West
+CUST000004,Donna Ramirez,Small Business,New York,East
+CUST000005,Mary Garcia,Corporate,Boston,East
+CUST000006,Joseph Allen,Corporate,Louisville,Central
+CUST000007,Mary Scott,Small Business,Minneapolis,North
+CUST000008,Paul Clark,Corporate,San Francisco,West
+CUST000009,Mark Nguyen,Consumer,Miami,South
+CUST000010,James Hernandez,Small Business,Milwaukee,North
+CUST000011,Nancy Moore,Consumer,Boston,East
+CUST000012,Jessica Perez,Corporate,Kansas City,Central
+CUST000013,Jennifer Harris,Small Business,Los Angeles,West
+CUST000014,Daniel Thompson,Small Business,Phoenix,West
+CUST000015,Thomas Williams,Corporate,Denver,West
+CUST000016,Paul Davis,Small Business,Denver,West
+CUST000017,Jennifer Scott,Corporate,Philadelphia,East
+CUST000018,Michelle White,Corporate,Cleveland,North
+CUST000019,Richard Jones,Consumer,Kansas City,Central
+CUST000020,Joseph Jackson,Corporate,New York,East
+CUST000021,Joseph Miller,Corporate,Washington DC,East
+CUST000022,Karen Robinson,Small Business,Miami,South
+CUST000023,David White,Consumer,Detroit,North
+CUST000024,Jessica Moore,Small Business,Kansas City,Central
+CUST000025,Joshua Hernandez,Small Business,Phoenix,West
+CUST000026,Sarah Hernandez,Small Business,Denver,West
+CUST000027,Matthew Moore,Corporate,Baltimore,East
+CUST000028,Joseph Lee,Consumer,Kansas City,Central
+CUST000029,Joseph Williams,Consumer,Philadelphia,East
+CUST000030,Margaret Moore,Small Business,New York,East
+CUST000031,Jessica Torres,Small Business,Philadelphia,East
+CUST000032,Jessica Young,Corporate,Dallas,South
+CUST000033,Ashley Martinez,Consumer,Detroit,North
+CUST000034,William Thomas,Consumer,Baltimore,East
+CUST000035,Paul Taylor,Corporate,Louisville,Central
+CUST000036,Sandra Nguyen,Corporate,Milwaukee,North
+CUST000037,Betty Anderson,Consumer,Indianapolis,Central
+CUST000038,Steven Young,Small Business,Kansas City,Central
+CUST000039,Patricia Davis,Corporate,Houston,South
+CUST000040,David Ramirez,Consumer,Phoenix,West
+CUST000041,Robert Harris,Consumer,Milwaukee,North
+CUST000042,Joshua Robinson,Corporate,Phoenix,West
+CUST000043,Thomas Scott,Small Business,Los Angeles,West
+CUST000044,Linda Wright,Small Business,Miami,South
+CUST000045,Nancy Davis,Corporate,Detroit,North
+CUST000046,Sandra Hernandez,Consumer,Memphis,Central
+CUST000047,James Taylor,Small Business,Baltimore,East
+CUST000048,Susan Allen,Corporate,Kansas City,Central
+CUST000049,Lisa Allen,Consumer,Phoenix,West
+CUST000050,Richard Martinez,Corporate,Seattle,West
+CUST000051,David Wright,Consumer,Phoenix,West
+CUST000052,James Hill,Consumer,Detroit,North
+CUST000053,Dorothy Johnson,Corporate,Atlanta,South
+CUST000054,Betty Martin,Small Business,Boston,East
+CUST000055,Patricia Thomas,Small Business,Baltimore,East
+CUST000056,Jennifer Garcia,Small Business,Milwaukee,North
+CUST000057,Robert Wright,Corporate,Boston,East
+CUST000058,William Walker,Consumer,Cleveland,North
+CUST000059,David Taylor,Corporate,Phoenix,West
+CUST000060,Joshua Ramirez,Small Business,San Francisco,West
+CUST000061,Paul Gonzalez,Consumer,Columbus,Central
+CUST000062,Margaret White,Small Business,Denver,West
+CUST000063,Kimberly Lewis,Small Business,Atlanta,South
+CUST000064,Sarah Anderson,Consumer,Kansas City,Central
+CUST000065,Nancy Johnson,Small Business,Baltimore,East
+CUST000066,Emily Anderson,Small Business,New Orleans,South
+CUST000067,Joseph Smith,Consumer,Kansas City,Central
+CUST000068,Patricia Anderson,Consumer,Atlanta,South
+CUST000069,John Perez,Corporate,Chicago,North
+CUST000070,Steven Thomas,Small Business,Philadelphia,East
+CUST000071,Dorothy Wilson,Consumer,Phoenix,West
+CUST000072,William Torres,Corporate,Cleveland,North
+CUST000073,Donald Thomas,Consumer,Washington DC,East
+CUST000074,Anthony Gonzalez,Corporate,Chicago,North
+CUST000075,Michael Ramirez,Corporate,Seattle,West
+CUST000076,Sandra Clark,Consumer,Washington DC,East
+CUST000077,Patricia Miller,Small Business,Atlanta,South
+CUST000078,Margaret Perez,Small Business,Atlanta,South
+CUST000079,Sarah Gonzalez,Small Business,Boston,East
+CUST000080,Paul Lewis,Consumer,San Francisco,West
+CUST000081,Sandra Lopez,Consumer,Columbus,Central
+CUST000082,Ashley Thomas,Consumer,New York,East
+CUST000083,Mark Scott,Corporate,Chicago,North
+CUST000084,Patricia Wright,Consumer,Kansas City,Central
+CUST000085,Jennifer Thomas,Small Business,San Francisco,West
+CUST000086,Anthony Young,Small Business,Denver,West
+CUST000087,Jessica Sanchez,Small Business,Chicago,North
+CUST000088,David Harris,Consumer,Atlanta,South
+CUST000089,Matthew Taylor,Consumer,Denver,West
+CUST000090,Charles Ramirez,Small Business,Louisville,Central
+CUST000091,Dorothy Martinez,Consumer,Boston,East
+CUST000092,Charles Wilson,Corporate,Kansas City,Central
+CUST000093,Donna Wright,Small Business,Kansas City,Central
+CUST000094,Christopher Brown,Consumer,Atlanta,South
+CUST000095,Donna Walker,Consumer,Louisville,Central
+CUST000096,Kimberly Hernandez,Consumer,Atlanta,South
+CUST000097,Steven Garcia,Consumer,Houston,South
+CUST000098,Robert Hill,Consumer,Los Angeles,West
+CUST000099,Sarah Sanchez,Small Business,Los Angeles,West
+CUST000100,Andrew Thomas,Corporate,Cleveland,North
+CUST000101,Joshua Williams,Small Business,Louisville,Central
+CUST000102,Jennifer Clark,Small Business,Cleveland,North
+CUST000103,Andrew King,Small Business,Columbus,Central
+CUST000104,Thomas Wilson,Consumer,Detroit,North
+CUST000105,Sarah Taylor,Consumer,Denver,West
+CUST000106,William Martin,Small Business,Denver,West
+CUST000107,Christopher Jones,Consumer,Los Angeles,West
+CUST000108,Ashley Flores,Consumer,Phoenix,West
+CUST000109,Michael Jones,Small Business,Baltimore,East
+CUST000110,Jessica Allen,Small Business,Seattle,West
+CUST000111,William Thompson,Small Business,Atlanta,South
+CUST000112,Sarah White,Small Business,Seattle,West
+CUST000113,David Lewis,Consumer,Baltimore,East
+CUST000114,Lisa Flores,Small Business,Baltimore,East
+CUST000115,James Scott,Small Business,Philadelphia,East
+CUST000116,Michael Rodriguez,Small Business,Philadelphia,East
+CUST000117,Linda Miller,Small Business,Cleveland,North
+CUST000118,Barbara Moore,Small Business,Detroit,North
+CUST000119,Joshua Wilson,Corporate,Miami,South
+CUST000120,Jessica Taylor,Consumer,Cleveland,North
+CUST000121,Dorothy Taylor,Corporate,New York,East
+CUST000122,Jennifer Ramirez,Consumer,Seattle,West
+CUST000123,John Smith,Consumer,Seattle,West
+CUST000124,William Taylor,Consumer,Boston,East
+CUST000125,Mark Scott,Small Business,Memphis,Central
+CUST000126,Emily Smith,Corporate,New York,East
+CUST000127,Robert Martinez,Corporate,Cleveland,North
+CUST000128,John White,Small Business,Phoenix,West
+CUST000129,Emily Martinez,Corporate,Washington DC,East
+CUST000130,William Williams,Corporate,Seattle,West
+CUST000131,Betty Williams,Consumer,Philadelphia,East
+CUST000132,Jessica Thomas,Small Business,New York,East
+CUST000133,Daniel Scott,Corporate,Milwaukee,North
+CUST000134,Michelle Martinez,Consumer,Boston,East
+CUST000135,David Lopez,Small Business,Denver,West
+CUST000136,Mary Lopez,Small Business,Miami,South
+CUST000137,Anthony Thomas,Consumer,Seattle,West
+CUST000138,David Miller,Consumer,Milwaukee,North
+CUST000139,John Walker,Consumer,Houston,South
+CUST000140,Richard Robinson,Consumer,Philadelphia,East
+CUST000141,Lisa Anderson,Consumer,Indianapolis,Central
+CUST000142,Mary Gonzalez,Small Business,Dallas,South
+CUST000143,Nancy Moore,Corporate,Atlanta,South
+CUST000144,Karen Thompson,Small Business,Baltimore,East
+CUST000145,Margaret Wright,Small Business,Columbus,Central
+CUST000146,Mary Davis,Corporate,Columbus,Central
+CUST000147,Susan Nguyen,Corporate,Detroit,North
+CUST000148,John Miller,Consumer,New Orleans,South
+CUST000149,Sandra Thompson,Consumer,Columbus,Central
+CUST000150,Sandra Hill,Corporate,Cleveland,North
+CUST000151,Linda Harris,Consumer,Louisville,Central
+CUST000152,Richard Taylor,Consumer,Atlanta,South
+CUST000153,Sandra Smith,Consumer,Louisville,Central
+CUST000154,Paul Gonzalez,Small Business,Miami,South
+CUST000155,Sandra Jones,Corporate,Philadelphia,East
+CUST000156,Michelle Lee,Small Business,Los Angeles,West
+CUST000157,Lisa Allen,Corporate,Detroit,North
+CUST000158,Anthony Lee,Consumer,Washington DC,East
+CUST000159,Charles Scott,Corporate,Boston,East
+CUST000160,Richard Clark,Consumer,Denver,West
+CUST000161,Susan Flores,Small Business,Louisville,Central
+CUST000162,Lisa Sanchez,Consumer,Phoenix,West
+CUST000163,James Martin,Corporate,Philadelphia,East
+CUST000164,Jessica Ramirez,Small Business,Baltimore,East
+CUST000165,Joshua Lee,Corporate,Washington DC,East
+CUST000166,Mark Lewis,Corporate,Indianapolis,Central
+CUST000167,Steven Walker,Corporate,Houston,South
+CUST000168,Jennifer Jackson,Small Business,Cleveland,North
+CUST000169,Michelle Perez,Consumer,Atlanta,South
+CUST000170,Sarah Martin,Corporate,Minneapolis,North
+CUST000171,Richard Martinez,Small Business,Chicago,North
+CUST000172,John Thomas,Corporate,Milwaukee,North
+CUST000173,Michelle Jones,Corporate,Denver,West
+CUST000174,Anthony Torres,Consumer,San Francisco,West
+CUST000175,Matthew Young,Consumer,Denver,West
+CUST000176,Sarah Martinez,Small Business,New York,East
+CUST000177,Michael Ramirez,Corporate,San Francisco,West
+CUST000178,Susan King,Consumer,Milwaukee,North
+CUST000179,Patricia Scott,Corporate,Indianapolis,Central
+CUST000180,Linda Robinson,Corporate,Boston,East
+CUST000181,Ashley King,Corporate,Louisville,Central
+CUST000182,Joshua Lee,Small Business,Milwaukee,North
+CUST000183,Michelle Allen,Consumer,Washington DC,East
+CUST000184,Emily Lewis,Corporate,San Francisco,West
+CUST000185,Donald Lewis,Corporate,Philadelphia,East
+CUST000186,Sarah Moore,Small Business,Baltimore,East
+CUST000187,Dorothy Thomas,Consumer,Detroit,North
+CUST000188,Mark Jones,Consumer,Miami,South
+CUST000189,Sarah Moore,Corporate,Miami,South
+CUST000190,Christopher Wright,Corporate,Atlanta,South
+CUST000191,William Martinez,Small Business,San Francisco,West
+CUST000192,Matthew Martinez,Corporate,San Francisco,West
+CUST000193,Robert Clark,Small Business,Denver,West
+CUST000194,Nancy Wright,Corporate,Dallas,South
+CUST000195,Anthony Brown,Consumer,Indianapolis,Central
+CUST000196,Anthony Harris,Consumer,Cleveland,North
+CUST000197,Mary Torres,Small Business,Dallas,South
+CUST000198,Donald Smith,Consumer,Detroit,North
+CUST000199,Lisa Harris,Small Business,Dallas,South
+CUST000200,Paul Wright,Consumer,Louisville,Central
+CUST000201,Joseph Young,Consumer,Houston,South
+CUST000202,Karen Ramirez,Consumer,Memphis,Central
+CUST000203,Mary Harris,Corporate,Philadelphia,East
+CUST000204,Margaret Hernandez,Corporate,Denver,West
+CUST000205,William Flores,Small Business,Baltimore,East
+CUST000206,Mary Sanchez,Corporate,New Orleans,South
+CUST000207,Andrew Johnson,Corporate,Los Angeles,West
+CUST000208,Sandra Rodriguez,Corporate,Memphis,Central
+CUST000209,Susan Brown,Small Business,Miami,South
+CUST000210,Matthew Lee,Corporate,San Francisco,West
+CUST000211,Ashley Lee,Consumer,Miami,South
+CUST000212,Matthew Moore,Corporate,Denver,West
+CUST000213,Thomas Garcia,Small Business,Denver,West
+CUST000214,Mary Wright,Consumer,New York,East
+CUST000215,Daniel Anderson,Small Business,Los Angeles,West
+CUST000216,John Johnson,Corporate,Houston,South
+CUST000217,Richard Johnson,Corporate,Cleveland,North
+CUST000218,Barbara Thomas,Consumer,Minneapolis,North
+CUST000219,Donald Davis,Small Business,Baltimore,East
+CUST000220,Jessica Robinson,Consumer,Columbus,Central
+CUST000221,Betty Hernandez,Consumer,Cleveland,North
+CUST000222,Joshua Davis,Corporate,Boston,East
+CUST000223,Lisa Miller,Corporate,Phoenix,West
+CUST000224,Mary Martin,Corporate,New Orleans,South
+CUST000225,Matthew Sanchez,Consumer,San Francisco,West
+CUST000226,Robert Nguyen,Consumer,Houston,South
+CUST000227,Michael Martin,Consumer,Louisville,Central
+CUST000228,Linda Torres,Corporate,New York,East
+CUST000229,Daniel Wright,Corporate,Washington DC,East
+CUST000230,Betty Jones,Corporate,Cleveland,North
+CUST000231,Nancy Smith,Corporate,Washington DC,East
+CUST000232,Dorothy Miller,Small Business,Memphis,Central
+CUST000233,Betty Robinson,Corporate,Minneapolis,North
+CUST000234,Sandra Lopez,Corporate,Phoenix,West
+CUST000235,Karen Flores,Corporate,Baltimore,East
+CUST000236,Donald Robinson,Corporate,Denver,West
+CUST000237,Donna Moore,Corporate,Seattle,West
+CUST000238,Sarah Garcia,Consumer,Philadelphia,East
+CUST000239,Mark Thomas,Consumer,Dallas,South
+CUST000240,Andrew Flores,Small Business,Denver,West
+CUST000241,Nancy Johnson,Corporate,Milwaukee,North
+CUST000242,Christopher Lopez,Corporate,Washington DC,East
+CUST000243,Jessica Thompson,Consumer,Detroit,North
+CUST000244,Nancy Moore,Corporate,Phoenix,West
+CUST000245,Karen Scott,Corporate,Los Angeles,West
+CUST000246,Kimberly Gonzalez,Corporate,Chicago,North
+CUST000247,Sarah Clark,Corporate,Denver,West
+CUST000248,Emily Thomas,Corporate,Washington DC,East
+CUST000249,Dorothy Lewis,Small Business,Los Angeles,West
+CUST000250,Jennifer Jackson,Corporate,Minneapolis,North
+CUST000251,Margaret Thomas,Small Business,Detroit,North
+CUST000252,Donna White,Small Business,Washington DC,East
+CUST000253,Emily King,Corporate,Detroit,North
+CUST000254,Sandra Scott,Small Business,Miami,South
+CUST000255,Daniel Robinson,Consumer,Seattle,West
+CUST000256,Lisa Taylor,Small Business,Minneapolis,North
+CUST000257,Linda Gonzalez,Small Business,Seattle,West
+CUST000258,Linda Wright,Corporate,Minneapolis,North
+CUST000259,Richard Wilson,Small Business,Milwaukee,North
+CUST000260,Karen Nguyen,Corporate,Baltimore,East
+CUST000261,Joshua Jackson,Consumer,Los Angeles,West
+CUST000262,Richard Jackson,Small Business,Minneapolis,North
+CUST000263,Betty Lopez,Consumer,Miami,South
+CUST000264,James Wright,Consumer,Indianapolis,Central
+CUST000265,Karen Williams,Corporate,Kansas City,Central
+CUST000266,Emily Jackson,Small Business,Boston,East
+CUST000267,Dorothy Miller,Corporate,New York,East
+CUST000268,Andrew Jackson,Corporate,Dallas,South
+CUST000269,Donald Lewis,Consumer,Seattle,West
+CUST000270,Susan Brown,Consumer,Philadelphia,East
+CUST000271,Donald Davis,Consumer,Atlanta,South
+CUST000272,Margaret Young,Consumer,Chicago,North
+CUST000273,Andrew Brown,Small Business,Minneapolis,North
+CUST000274,Barbara Torres,Small Business,Columbus,Central
+CUST000275,Jennifer Thomas,Small Business,New York,East
+CUST000276,Emily Clark,Consumer,Baltimore,East
+CUST000277,Joshua Flores,Consumer,Boston,East
+CUST000278,Kimberly Harris,Consumer,Denver,West
+CUST000279,Mark Martin,Corporate,Cleveland,North
+CUST000280,Sandra Martin,Corporate,Cleveland,North
+CUST000281,Michelle Brown,Corporate,New Orleans,South
+CUST000282,Michael Wilson,Consumer,Boston,East
+CUST000283,Thomas Garcia,Small Business,San Francisco,West
+CUST000284,Sarah Lopez,Consumer,Baltimore,East
+CUST000285,Robert Hernandez,Consumer,New York,East
+CUST000286,Anthony Lewis,Small Business,Louisville,Central
+CUST000287,Donald Jackson,Small Business,Chicago,North
+CUST000288,Joseph Jackson,Consumer,Philadelphia,East
+CUST000289,Ashley Jones,Corporate,Boston,East
+CUST000290,Thomas Nguyen,Small Business,Boston,East
+CUST000291,Sandra Davis,Small Business,Louisville,Central
+CUST000292,Joseph Martinez,Small Business,Miami,South
+CUST000293,Barbara Jones,Corporate,Kansas City,Central
+CUST000294,David Martin,Corporate,New Orleans,South
+CUST000295,Andrew Jackson,Small Business,Washington DC,East
+CUST000296,Linda Robinson,Consumer,Philadelphia,East
+CUST000297,Margaret Moore,Consumer,Louisville,Central
+CUST000298,Paul Young,Corporate,Washington DC,East
+CUST000299,Jennifer Hill,Small Business,Atlanta,South
+CUST000300,Sandra Lee,Consumer,Cleveland,North
+CUST000301,Thomas Johnson,Corporate,Atlanta,South
+CUST000302,Joseph Torres,Corporate,Louisville,Central
+CUST000303,Mary Moore,Corporate,Cleveland,North
+CUST000304,John Lopez,Small Business,Memphis,Central
+CUST000305,Kimberly Lewis,Consumer,Philadelphia,East
+CUST000306,Susan Nguyen,Small Business,Milwaukee,North
+CUST000307,Dorothy Garcia,Corporate,Dallas,South
+CUST000308,Daniel Clark,Small Business,Philadelphia,East
+CUST000309,Christopher Miller,Corporate,Houston,South
+CUST000310,Nancy Clark,Consumer,Milwaukee,North
+CUST000311,Charles Sanchez,Small Business,Phoenix,West
+CUST000312,John Robinson,Small Business,Los Angeles,West
+CUST000313,Christopher Taylor,Consumer,Detroit,North
+CUST000314,Linda Sanchez,Small Business,New Orleans,South
+CUST000315,James Wright,Small Business,Dallas,South
+CUST000316,Anthony Brown,Corporate,San Francisco,West
+CUST000317,Kimberly White,Small Business,Phoenix,West
+CUST000318,Dorothy Lewis,Corporate,Los Angeles,West
+CUST000319,Jessica Moore,Corporate,Louisville,Central
+CUST000320,William Jackson,Consumer,Denver,West
+CUST000321,Dorothy Davis,Small Business,Atlanta,South
+CUST000322,Joshua Thomas,Consumer,Minneapolis,North
+CUST000323,Lisa Scott,Small Business,Los Angeles,West
+CUST000324,Emily Clark,Corporate,Kansas City,Central
+CUST000325,Joseph Davis,Corporate,Memphis,Central
+CUST000326,Linda Martinez,Consumer,Dallas,South
+CUST000327,Charles Allen,Small Business,Miami,South
+CUST000328,Anthony Walker,Consumer,Milwaukee,North
+CUST000329,Sarah Robinson,Corporate,Cleveland,North
+CUST000330,Barbara Harris,Small Business,Boston,East
+CUST000331,Joshua Allen,Small Business,Boston,East
+CUST000332,Robert Moore,Small Business,Dallas,South
+CUST000333,Nancy Allen,Small Business,Miami,South
+CUST000334,James Jackson,Corporate,Columbus,Central
+CUST000335,Donna Nguyen,Consumer,Washington DC,East
+CUST000336,Barbara Lewis,Small Business,Louisville,Central
+CUST000337,Donald Thompson,Small Business,Columbus,Central
+CUST000338,Emily Wright,Small Business,Dallas,South
+CUST000339,Ashley Lee,Corporate,Houston,South
+CUST000340,Sarah Torres,Consumer,Memphis,Central
+CUST000341,Joseph Clark,Corporate,Los Angeles,West
+CUST000342,Christopher Walker,Corporate,Dallas,South
+CUST000343,Matthew Martinez,Small Business,Denver,West
+CUST000344,John Rodriguez,Corporate,Baltimore,East
+CUST000345,Donna Perez,Consumer,Kansas City,Central
+CUST000346,Mark Miller,Consumer,New Orleans,South
+CUST000347,Ashley Smith,Small Business,Indianapolis,Central
+CUST000348,Anthony Martinez,Small Business,Kansas City,Central
+CUST000349,Donald Taylor,Consumer,Detroit,North
+CUST000350,Michelle Sanchez,Corporate,Chicago,North
+CUST000351,Nancy Wright,Corporate,Washington DC,East
+CUST000352,Christopher Young,Corporate,Cleveland,North
+CUST000353,John Flores,Small Business,Atlanta,South
+CUST000354,Sarah Jackson,Consumer,Boston,East
+CUST000355,Jennifer Ramirez,Consumer,Kansas City,Central
+CUST000356,Michael Lewis,Consumer,Indianapolis,Central
+CUST000357,Lisa Johnson,Consumer,Chicago,North
+CUST000358,Christopher Brown,Small Business,Columbus,Central
+CUST000359,Daniel White,Small Business,Milwaukee,North
+CUST000360,Barbara Thomas,Consumer,Phoenix,West
+CUST000361,Anthony Torres,Corporate,Indianapolis,Central
+CUST000362,David Lopez,Consumer,Kansas City,Central
+CUST000363,Michelle Harris,Consumer,New Orleans,South
+CUST000364,Sarah Young,Consumer,Louisville,Central
+CUST000365,Barbara Anderson,Consumer,Milwaukee,North
+CUST000366,Thomas Robinson,Corporate,Philadelphia,East
+CUST000367,James Robinson,Small Business,Philadelphia,East
+CUST000368,Paul Hernandez,Corporate,Atlanta,South
+CUST000369,Mark Thompson,Small Business,Cleveland,North
+CUST000370,Lisa Ramirez,Corporate,Seattle,West
+CUST000371,Ashley Martin,Consumer,Houston,South
+CUST000372,Matthew Walker,Consumer,Los Angeles,West
+CUST000373,Sarah Harris,Consumer,Baltimore,East
+CUST000374,Daniel Torres,Consumer,Miami,South
+CUST000375,Charles Johnson,Small Business,Memphis,Central
+CUST000376,Karen Smith,Small Business,Cleveland,North
+CUST000377,Patricia Hill,Small Business,Denver,West
+CUST000378,Charles Anderson,Corporate,Phoenix,West
+CUST000379,Daniel Anderson,Corporate,Houston,South
+CUST000380,Michelle Taylor,Corporate,Houston,South
+CUST000381,Michael Williams,Corporate,Detroit,North
+CUST000382,Mark Williams,Small Business,Louisville,Central
+CUST000383,Betty Rodriguez,Small Business,Kansas City,Central
+CUST000384,Charles Lee,Small Business,Dallas,South
+CUST000385,Susan Gonzalez,Corporate,Minneapolis,North
+CUST000386,Paul White,Consumer,Cleveland,North
+CUST000387,Steven Moore,Small Business,Minneapolis,North
+CUST000388,Thomas Walker,Corporate,Columbus,Central
+CUST000389,Nancy Davis,Small Business,Memphis,Central
+CUST000390,Robert Martinez,Corporate,Minneapolis,North
+CUST000391,Margaret Scott,Small Business,Seattle,West
+CUST000392,Jennifer Sanchez,Corporate,Chicago,North
+CUST000393,Thomas Wright,Small Business,Atlanta,South
+CUST000394,Ashley White,Small Business,Philadelphia,East
+CUST000395,Donna Harris,Consumer,Seattle,West
+CUST000396,Michael Anderson,Corporate,Memphis,Central
+CUST000397,Mary Flores,Corporate,Cleveland,North
+CUST000398,Christopher Flores,Small Business,Minneapolis,North
+CUST000399,Robert Robinson,Small Business,Miami,South
+CUST000400,Anthony Davis,Small Business,Houston,South
+CUST000401,John Williams,Corporate,Columbus,Central
+CUST000402,Dorothy Davis,Corporate,Los Angeles,West
+CUST000403,Sarah Wright,Corporate,Houston,South
+CUST000404,Matthew Robinson,Small Business,Columbus,Central
+CUST000405,Paul Clark,Consumer,Baltimore,East
+CUST000406,Barbara Clark,Corporate,New York,East
+CUST000407,Dorothy Flores,Consumer,Washington DC,East
+CUST000408,Karen Williams,Small Business,Detroit,North
+CUST000409,Jessica Lewis,Corporate,Memphis,Central
+CUST000410,Sarah White,Corporate,Chicago,North
+CUST000411,Betty Wright,Corporate,Detroit,North
+CUST000412,Patricia Sanchez,Corporate,Miami,South
+CUST000413,Richard Davis,Small Business,Dallas,South
+CUST000414,Jennifer Wilson,Corporate,Cleveland,North
+CUST000415,Mary Brown,Corporate,Detroit,North
+CUST000416,Sarah Rodriguez,Consumer,Phoenix,West
+CUST000417,Jessica Jones,Consumer,Louisville,Central
+CUST000418,Jessica Nguyen,Corporate,Minneapolis,North
+CUST000419,Joseph Perez,Small Business,Houston,South
+CUST000420,Joshua Smith,Small Business,Philadelphia,East
+CUST000421,Barbara Rodriguez,Corporate,Louisville,Central
+CUST000422,Thomas Lopez,Corporate,Los Angeles,West
+CUST000423,Mary Rodriguez,Corporate,Los Angeles,West
+CUST000424,Daniel Thomas,Consumer,Baltimore,East
+CUST000425,Christopher Johnson,Consumer,Boston,East
+CUST000426,Thomas Brown,Corporate,Minneapolis,North
+CUST000427,Anthony King,Consumer,Kansas City,Central
+CUST000428,Robert Walker,Consumer,Memphis,Central
+CUST000429,Betty Allen,Consumer,Cleveland,North
+CUST000430,Michael Lewis,Consumer,Phoenix,West
+CUST000431,Joseph Flores,Corporate,Chicago,North
+CUST000432,Kimberly Martin,Small Business,Denver,West
+CUST000433,Mary Brown,Small Business,Memphis,Central
+CUST000434,Margaret Ramirez,Corporate,Chicago,North
+CUST000435,Dorothy Lewis,Corporate,New York,East
+CUST000436,Jennifer Lee,Consumer,Cleveland,North
+CUST000437,Barbara Jones,Consumer,Boston,East
+CUST000438,Karen Flores,Corporate,Louisville,Central
+CUST000439,Emily Lee,Corporate,Milwaukee,North
+CUST000440,Joshua King,Consumer,Miami,South
+CUST000441,Ashley Allen,Corporate,Louisville,Central
+CUST000442,Sandra Miller,Consumer,Atlanta,South
+CUST000443,Emily Wilson,Consumer,Milwaukee,North
+CUST000444,Mark Anderson,Small Business,Washington DC,East
+CUST000445,Nancy Robinson,Corporate,Washington DC,East
+CUST000446,Anthony Miller,Corporate,Seattle,West
+CUST000447,Sandra Lee,Small Business,Miami,South
+CUST000448,Betty Martinez,Small Business,Memphis,Central
+CUST000449,Robert Garcia,Small Business,New York,East
+CUST000450,Jennifer Ramirez,Corporate,Atlanta,South
+CUST000451,Betty Rodriguez,Small Business,Louisville,Central
+CUST000452,Patricia Nguyen,Corporate,Louisville,Central
+CUST000453,Emily Perez,Small Business,New York,East
+CUST000454,Anthony Thompson,Small Business,Milwaukee,North
+CUST000455,Patricia Jackson,Corporate,Baltimore,East
+CUST000456,Lisa Thompson,Small Business,New York,East
+CUST000457,Andrew Allen,Corporate,Minneapolis,North
+CUST000458,Barbara Walker,Small Business,San Francisco,West
+CUST000459,Michael Thompson,Consumer,Louisville,Central
+CUST000460,Betty Davis,Small Business,Detroit,North
+CUST000461,Andrew Anderson,Corporate,Denver,West
+CUST000462,Emily Flores,Small Business,Cleveland,North
+CUST000463,Emily Johnson,Corporate,Phoenix,West
+CUST000464,Karen Johnson,Small Business,Boston,East
+CUST000465,Karen Martin,Consumer,Detroit,North
+CUST000466,Daniel Smith,Consumer,Indianapolis,Central
+CUST000467,Barbara Torres,Corporate,Milwaukee,North
+CUST000468,Robert Martinez,Small Business,New York,East
+CUST000469,Jennifer King,Small Business,Minneapolis,North
+CUST000470,Matthew Clark,Corporate,Memphis,Central
+CUST000471,Nancy Hernandez,Corporate,Seattle,West
+CUST000472,Lisa Lee,Corporate,Louisville,Central
+CUST000473,Joshua Garcia,Small Business,New York,East
+CUST000474,Barbara Hernandez,Corporate,Baltimore,East
+CUST000475,Patricia Garcia,Corporate,Seattle,West
+CUST000476,Mark Ramirez,Small Business,Denver,West
+CUST000477,Joshua Lewis,Consumer,Memphis,Central
+CUST000478,Karen Wilson,Small Business,Cleveland,North
+CUST000479,Linda Thompson,Consumer,Denver,West
+CUST000480,Linda Jackson,Consumer,Cleveland,North
+CUST000481,Dorothy King,Small Business,Miami,South
+CUST000482,John Anderson,Small Business,Memphis,Central
+CUST000483,Joshua Brown,Small Business,Atlanta,South
+CUST000484,Jessica Martin,Small Business,San Francisco,West
+CUST000485,William Taylor,Corporate,Philadelphia,East
+CUST000486,Christopher Davis,Corporate,Atlanta,South
+CUST000487,Dorothy Ramirez,Consumer,Houston,South
+CUST000488,William Harris,Consumer,Baltimore,East
+CUST000489,Joseph Allen,Consumer,Phoenix,West
+CUST000490,Daniel Jones,Consumer,Denver,West
+CUST000491,John Ramirez,Corporate,Kansas City,Central
+CUST000492,Ashley Jones,Small Business,Columbus,Central
+CUST000493,Andrew Ramirez,Small Business,Phoenix,West
+CUST000494,Margaret Clark,Corporate,Seattle,West
+CUST000495,Linda Sanchez,Small Business,Atlanta,South
+CUST000496,Christopher Hernandez,Small Business,Baltimore,East
+CUST000497,Ashley White,Small Business,Chicago,North
+CUST000498,Sandra Miller,Corporate,Houston,South
+CUST000499,Sandra Nguyen,Consumer,Memphis,Central
+CUST000500,Kimberly Garcia,Small Business,Washington DC,East
+CUST000501,Lisa Perez,Consumer,Minneapolis,North
+CUST000502,Nancy Hernandez,Corporate,Los Angeles,West
+CUST000503,Steven Davis,Consumer,Louisville,Central
+CUST000504,Steven Gonzalez,Small Business,Columbus,Central
+CUST000505,Daniel Martinez,Corporate,Houston,South
+CUST000506,Michael Martinez,Consumer,Philadelphia,East
+CUST000507,Richard Lopez,Consumer,Baltimore,East
+CUST000508,Barbara Jones,Corporate,Houston,South
+CUST000509,Dorothy Robinson,Corporate,New Orleans,South
+CUST000510,Donna Lewis,Small Business,New Orleans,South
+CUST000511,Michelle Lee,Consumer,Columbus,Central
+CUST000512,Barbara Lewis,Small Business,Los Angeles,West
+CUST000513,Donald Lewis,Corporate,Columbus,Central
+CUST000514,Karen Nguyen,Small Business,Kansas City,Central
+CUST000515,Daniel Allen,Consumer,Kansas City,Central
+CUST000516,Lisa Robinson,Consumer,Milwaukee,North
+CUST000517,John Brown,Consumer,Columbus,Central
+CUST000518,Charles Jones,Corporate,Chicago,North
+CUST000519,Michelle Hill,Small Business,Baltimore,East
+CUST000520,Matthew Robinson,Consumer,Baltimore,East
+CUST000521,Emily Williams,Corporate,Dallas,South
+CUST000522,Andrew Gonzalez,Consumer,Detroit,North
+CUST000523,Joshua Walker,Small Business,Cleveland,North
+CUST000524,Barbara Brown,Small Business,Memphis,Central
+CUST000525,Michael Perez,Small Business,Atlanta,South
+CUST000526,Steven Lopez,Small Business,Atlanta,South
+CUST000527,Sarah Lewis,Corporate,Memphis,Central
+CUST000528,Kimberly King,Small Business,Cleveland,North
+CUST000529,David White,Consumer,Columbus,Central
+CUST000530,Charles Harris,Small Business,Memphis,Central
+CUST000531,Nancy Hill,Small Business,New York,East
+CUST000532,Nancy Jones,Small Business,Detroit,North
+CUST000533,Michael Scott,Corporate,Milwaukee,North
+CUST000534,Charles Taylor,Small Business,New Orleans,South
+CUST000535,Barbara Perez,Corporate,New York,East
+CUST000536,Donna Martinez,Consumer,Detroit,North
+CUST000537,Lisa Sanchez,Small Business,Boston,East
+CUST000538,Joshua Garcia,Consumer,Detroit,North
+CUST000539,Emily Harris,Consumer,Philadelphia,East
+CUST000540,William King,Corporate,Chicago,North
+CUST000541,Sandra Allen,Consumer,Seattle,West
+CUST000542,Mary White,Small Business,Detroit,North
+CUST000543,Susan Wilson,Corporate,Detroit,North
+CUST000544,Dorothy Gonzalez,Consumer,Minneapolis,North
+CUST000545,William Martinez,Small Business,Kansas City,Central
+CUST000546,Charles Miller,Corporate,Cleveland,North
+CUST000547,Paul King,Consumer,New York,East
+CUST000548,Nancy Flores,Small Business,Boston,East
+CUST000549,Joshua Harris,Corporate,Boston,East
+CUST000550,David Lopez,Consumer,Phoenix,West
+CUST000551,David Lewis,Small Business,Kansas City,Central
+CUST000552,Anthony White,Corporate,Houston,South
+CUST000553,Mark Flores,Small Business,Columbus,Central
+CUST000554,Mark Anderson,Small Business,New Orleans,South
+CUST000555,Sarah Martin,Corporate,Memphis,Central
+CUST000556,Richard White,Small Business,Baltimore,East
+CUST000557,Mark Robinson,Consumer,Seattle,West
+CUST000558,Matthew Allen,Consumer,Louisville,Central
+CUST000559,Anthony Hernandez,Corporate,San Francisco,West
+CUST000560,Joshua Rodriguez,Small Business,Columbus,Central
+CUST000561,Patricia Walker,Corporate,Philadelphia,East
+CUST000562,Emily Miller,Corporate,Cleveland,North
+CUST000563,Linda Jackson,Small Business,New York,East
+CUST000564,David Moore,Small Business,Milwaukee,North
+CUST000565,Steven Martinez,Small Business,Memphis,Central
+CUST000566,Jennifer Anderson,Consumer,Dallas,South
+CUST000567,Daniel Johnson,Small Business,Dallas,South
+CUST000568,Patricia Sanchez,Corporate,New Orleans,South
+CUST000569,Betty Thomas,Corporate,Denver,West
+CUST000570,Jennifer White,Corporate,Boston,East
+CUST000571,Mary Lee,Consumer,Kansas City,Central
+CUST000572,Nancy Martinez,Consumer,Boston,East
+CUST000573,John Jackson,Corporate,Dallas,South
+CUST000574,William Walker,Small Business,Milwaukee,North
+CUST000575,Michelle Smith,Small Business,Chicago,North
+CUST000576,Mary Taylor,Consumer,Houston,South
+CUST000577,Barbara Scott,Small Business,Louisville,Central
+CUST000578,Kimberly Ramirez,Consumer,New York,East
+CUST000579,Charles Thomas,Small Business,Columbus,Central
+CUST000580,Linda Brown,Corporate,Minneapolis,North
+CUST000581,Anthony Flores,Corporate,Milwaukee,North
+CUST000582,Robert Davis,Small Business,Memphis,Central
+CUST000583,Joshua Wright,Corporate,Chicago,North
+CUST000584,Steven Torres,Small Business,Minneapolis,North
+CUST000585,Barbara Jackson,Corporate,Washington DC,East
+CUST000586,James Flores,Small Business,Columbus,Central
+CUST000587,Sarah Torres,Corporate,Denver,West
+CUST000588,Susan Garcia,Consumer,Cleveland,North
+CUST000589,Betty Jones,Small Business,Louisville,Central
+CUST000590,Paul Allen,Corporate,Louisville,Central
+CUST000591,Emily Johnson,Corporate,Memphis,Central
+CUST000592,Donald Williams,Consumer,Memphis,Central
+CUST000593,Betty Taylor,Consumer,Atlanta,South
+CUST000594,Daniel Jones,Corporate,Columbus,Central
+CUST000595,Sarah Miller,Consumer,New Orleans,South
+CUST000596,Nancy Rodriguez,Small Business,Kansas City,Central
+CUST000597,Daniel Wright,Small Business,Philadelphia,East
+CUST000598,Susan Robinson,Small Business,Denver,West
+CUST000599,Susan Rodriguez,Small Business,Los Angeles,West
+CUST000600,Ashley Williams,Corporate,Seattle,West
+CUST000601,Richard Williams,Consumer,San Francisco,West
+CUST000602,John Lee,Corporate,Seattle,West
+CUST000603,Steven Sanchez,Corporate,Phoenix,West
+CUST000604,Donald Taylor,Small Business,Chicago,North
+CUST000605,Richard Jackson,Consumer,Columbus,Central
+CUST000606,Patricia Perez,Corporate,Philadelphia,East
+CUST000607,Linda White,Corporate,Dallas,South
+CUST000608,Margaret Lewis,Consumer,Washington DC,East
+CUST000609,Nancy Lopez,Consumer,Memphis,Central
+CUST000610,Dorothy White,Corporate,Louisville,Central
+CUST000611,Karen Garcia,Consumer,Memphis,Central
+CUST000612,Jennifer Ramirez,Consumer,Baltimore,East
+CUST000613,Susan Wright,Corporate,Seattle,West
+CUST000614,Christopher Miller,Consumer,Atlanta,South
+CUST000615,Christopher Jackson,Corporate,Seattle,West
+CUST000616,Mark Hill,Consumer,Denver,West
+CUST000617,David Lewis,Consumer,Miami,South
+CUST000618,Mark Williams,Corporate,Miami,South
+CUST000619,Michelle Ramirez,Small Business,Detroit,North
+CUST000620,Patricia Jones,Corporate,Milwaukee,North
+CUST000621,Betty Allen,Small Business,Boston,East
+CUST000622,Mary Martinez,Corporate,Baltimore,East
+CUST000623,Mark Williams,Corporate,Minneapolis,North
+CUST000624,Robert Thomas,Corporate,Philadelphia,East
+CUST000625,Betty Harris,Small Business,Phoenix,West
+CUST000626,John Hill,Small Business,Houston,South
+CUST000627,Mark White,Small Business,Miami,South
+CUST000628,Mark Jones,Small Business,New Orleans,South
+CUST000629,William King,Corporate,Philadelphia,East
+CUST000630,Margaret Lee,Corporate,Miami,South
+CUST000631,Sarah Davis,Small Business,Los Angeles,West
+CUST000632,Susan Young,Consumer,New Orleans,South
+CUST000633,Matthew Scott,Corporate,New York,East
+CUST000634,Thomas Taylor,Small Business,Dallas,South
+CUST000635,Jessica Flores,Corporate,Detroit,North
+CUST000636,Dorothy Gonzalez,Consumer,Los Angeles,West
+CUST000637,William Jones,Corporate,Dallas,South
+CUST000638,Susan Lewis,Consumer,Atlanta,South
+CUST000639,Christopher Thompson,Small Business,Los Angeles,West
+CUST000640,Emily Wright,Small Business,Columbus,Central
+CUST000641,Lisa Hernandez,Consumer,San Francisco,West
+CUST000642,Betty Allen,Corporate,Indianapolis,Central
+CUST000643,Linda Gonzalez,Small Business,Indianapolis,Central
+CUST000644,Sarah Young,Small Business,New York,East
+CUST000645,Betty Scott,Consumer,Phoenix,West
+CUST000646,Betty Robinson,Corporate,New Orleans,South
+CUST000647,William Flores,Corporate,New York,East
+CUST000648,Robert Martin,Corporate,Washington DC,East
+CUST000649,Donald King,Consumer,Memphis,Central
+CUST000650,Anthony Torres,Consumer,Kansas City,Central
+CUST000651,William Lee,Small Business,New York,East
+CUST000652,Mark Robinson,Consumer,Phoenix,West
+CUST000653,Daniel Rodriguez,Consumer,New Orleans,South
+CUST000654,Donna Lopez,Consumer,Indianapolis,Central
+CUST000655,Sandra Allen,Consumer,New York,East
+CUST000656,Linda King,Consumer,Boston,East
+CUST000657,Lisa Hernandez,Corporate,San Francisco,West
+CUST000658,Christopher Anderson,Small Business,Seattle,West
+CUST000659,Kimberly Jackson,Consumer,Chicago,North
+CUST000660,Thomas Gonzalez,Consumer,New Orleans,South
+CUST000661,Karen Rodriguez,Consumer,Detroit,North
+CUST000662,Michelle Wright,Corporate,Los Angeles,West
+CUST000663,Steven Hernandez,Consumer,Cleveland,North
+CUST000664,Donna Martinez,Small Business,Houston,South
+CUST000665,Michelle Hill,Corporate,Philadelphia,East
+CUST000666,Andrew Williams,Small Business,Los Angeles,West
+CUST000667,Jennifer Williams,Corporate,Baltimore,East
+CUST000668,Thomas Wilson,Corporate,Louisville,Central
+CUST000669,Anthony Flores,Small Business,Kansas City,Central
+CUST000670,Dorothy Wright,Corporate,Detroit,North
+CUST000671,Lisa Walker,Small Business,Indianapolis,Central
+CUST000672,Margaret Martin,Small Business,Denver,West
+CUST000673,Robert Brown,Corporate,San Francisco,West
+CUST000674,Mark Clark,Small Business,Milwaukee,North
+CUST000675,Ashley Wilson,Consumer,Seattle,West
+CUST000676,Joshua Martinez,Small Business,Seattle,West
+CUST000677,Christopher Thompson,Small Business,Washington DC,East
+CUST000678,William White,Small Business,Cleveland,North
+CUST000679,Emily Miller,Consumer,Philadelphia,East
+CUST000680,Sarah Robinson,Small Business,Kansas City,Central
+CUST000681,Karen Lewis,Corporate,San Francisco,West
+CUST000682,Barbara Miller,Consumer,Chicago,North
+CUST000683,Charles Harris,Consumer,Louisville,Central
+CUST000684,Anthony Thomas,Corporate,Indianapolis,Central
+CUST000685,Christopher Torres,Consumer,Detroit,North
+CUST000686,Richard Hernandez,Consumer,Memphis,Central
+CUST000687,Steven Robinson,Corporate,Washington DC,East
+CUST000688,Lisa Young,Corporate,New York,East
+CUST000689,Jennifer Sanchez,Consumer,Baltimore,East
+CUST000690,Ashley Thomas,Small Business,San Francisco,West
+CUST000691,Donna Thompson,Small Business,Kansas City,Central
+CUST000692,Patricia Jackson,Corporate,Denver,West
+CUST000693,Joshua Walker,Small Business,Columbus,Central
+CUST000694,Paul Smith,Corporate,Kansas City,Central
+CUST000695,Sandra Rodriguez,Consumer,Detroit,North
+CUST000696,Betty Sanchez,Consumer,Miami,South
+CUST000697,John Sanchez,Small Business,Los Angeles,West
+CUST000698,Andrew Scott,Small Business,Boston,East
+CUST000699,Betty Scott,Small Business,Detroit,North
+CUST000700,Robert Harris,Consumer,Cleveland,North
+CUST000701,Mark Scott,Consumer,Philadelphia,East
+CUST000702,Michelle Flores,Consumer,Los Angeles,West
+CUST000703,William Miller,Consumer,Milwaukee,North
+CUST000704,Betty Perez,Consumer,Cleveland,North
+CUST000705,Betty Martinez,Corporate,Minneapolis,North
+CUST000706,Joshua Allen,Consumer,Washington DC,East
+CUST000707,Steven Williams,Small Business,Chicago,North
+CUST000708,John Rodriguez,Corporate,Philadelphia,East
+CUST000709,Donald King,Consumer,Washington DC,East
+CUST000710,Barbara Hill,Corporate,Baltimore,East
+CUST000711,William Lee,Small Business,Phoenix,West
+CUST000712,Christopher Hernandez,Consumer,Washington DC,East
+CUST000713,Michelle Martin,Consumer,Phoenix,West
+CUST000714,Nancy Allen,Consumer,Phoenix,West
+CUST000715,Paul Young,Small Business,Louisville,Central
+CUST000716,Lisa Walker,Consumer,Los Angeles,West
+CUST000717,Betty Perez,Corporate,New York,East
+CUST000718,Anthony Nguyen,Corporate,Philadelphia,East
+CUST000719,Mary Hill,Small Business,Dallas,South
+CUST000720,Thomas Nguyen,Consumer,Baltimore,East
+CUST000721,Joseph Brown,Small Business,Cleveland,North
+CUST000722,Donald Hernandez,Small Business,Louisville,Central
+CUST000723,Michelle Harris,Corporate,Indianapolis,Central
+CUST000724,Sarah Williams,Consumer,Cleveland,North
+CUST000725,Linda Gonzalez,Small Business,Los Angeles,West
+CUST000726,Mark Lee,Consumer,Milwaukee,North
+CUST000727,Barbara Clark,Corporate,San Francisco,West
+CUST000728,Anthony Allen,Corporate,Cleveland,North
+CUST000729,Donald Brown,Consumer,Boston,East
+CUST000730,Kimberly Wilson,Corporate,Phoenix,West
+CUST000731,Christopher Walker,Consumer,Phoenix,West
+CUST000732,Matthew Lee,Consumer,Boston,East
+CUST000733,Ashley Wright,Consumer,Columbus,Central
+CUST000734,Paul Thompson,Consumer,Seattle,West
+CUST000735,Michelle Walker,Corporate,Houston,South
+CUST000736,Sarah Moore,Small Business,Phoenix,West
+CUST000737,Lisa Anderson,Consumer,Seattle,West
+CUST000738,Charles Wilson,Consumer,Dallas,South
+CUST000739,Christopher Walker,Consumer,Seattle,West
+CUST000740,Emily Moore,Corporate,Columbus,Central
+CUST000741,Linda Torres,Consumer,Louisville,Central
+CUST000742,Matthew Sanchez,Corporate,Seattle,West
+CUST000743,Barbara Jackson,Consumer,Los Angeles,West
+CUST000744,Charles Garcia,Consumer,Miami,South
+CUST000745,Mark Taylor,Corporate,Denver,West
+CUST000746,Jessica Gonzalez,Corporate,New Orleans,South
+CUST000747,Karen Scott,Corporate,Philadelphia,East
+CUST000748,William Miller,Small Business,New Orleans,South
+CUST000749,Donna Thomas,Corporate,Houston,South
+CUST000750,Patricia King,Small Business,Minneapolis,North
